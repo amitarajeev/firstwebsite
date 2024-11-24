@@ -9,7 +9,7 @@ body {
 
 header {
     background: #7f8e9e;
-    color: white;
+    color: rgb(38, 37, 37);
     padding: 1rem;
     text-align: center;
 }
@@ -43,7 +43,7 @@ nav {
   }
   
   nav ul li a {
-    color: rgb(98, 151, 145);
+    color: rgb(173, 175, 175);
     text-decoration: none;
     font-weight: bold;
     padding: 8px 15px;
@@ -52,5 +52,43 @@ nav {
   
   nav ul li a:hover {
     background-color: #575757;
+  }
+  
+  /* Styles for the container */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Primary Button (e.g., Blue) */
+  .btn-primary {
+    background-color: #8e9ea6; /* Blue */
+    color: rgb(68, 67, 67);             /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #606871; /* Darker Blue */
+  }
+  
+  /* Secondary Button (e.g., Green) */
+  .btn-secondary {
+    background-color: #8e9ea6; /* Green */
+    color: rgb(68, 67, 67);             /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #606871; /* Darker Green */
   }
   
