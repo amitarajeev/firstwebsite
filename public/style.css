@@ -8,24 +8,24 @@ body {
 }
 
 header {
-    background: #7f8e9e;
-    color: rgb(38, 37, 37);
+    background: #363636;
+    color: rgb(250, 248, 248);
     padding: 1rem;
     text-align: center;
 }
 
 footer {
-    background: #465764;
-    color: rgb(15, 15, 15);
+    background-color: #fefefe;
+    color: rgb(18, 17, 17);
     text-align: center;
-    padding: 0.5rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    padding: 1px 0; /* Reduced padding */
+    font-size: 14px; /* Smaller font size for compactness */
+    
+  }
+  
 
 nav {
-    background-color: #333;
+    background-color: #242424;
     color: white;
     padding: 10px 0;
   }
@@ -62,8 +62,8 @@ nav {
   
   /* Primary Button (e.g., Blue) */
   .btn-primary {
-    background-color: #8e9ea6; /* Blue */
-    color: rgb(68, 67, 67);             /* White text */
+    background-color: #474c4e; /* Blue */
+    color: rgb(204, 203, 203);             /* White text */
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -78,8 +78,8 @@ nav {
   
   /* Secondary Button (e.g., Green) */
   .btn-secondary {
-    background-color: #8e9ea6; /* Green */
-    color: rgb(68, 67, 67);             /* White text */
+    background-color: #474c4e; /* Green */
+    color: rgb(204, 203, 203);             /* White text */
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -90,5 +90,127 @@ nav {
   
   .btn-secondary:hover {
     background-color: #606871; /* Darker Green */
+  }
+  
+
+  /* Skills Section Styling */
+.skills {
+    text-align: center;
+    background-color: #fcfbfb;
+    padding: 50px 20px;
+  }
+  
+  .skills h2 {
+    font-size: 28px;
+    color: #3a3939;
+    margin-bottom: 30px;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #727273;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  /* General Section Styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Section-Specific Background Colors */
+  #home {
+    background-color: #fcfbfb;
+  }
+  
+  #about {
+    background-color: #fcfbfb;
+  }
+  
+  #projects {
+    background-color: #fcfbfb;
+  }
+  
+  #contact {
+    background-color: #fcfbfb;
+  }
+  
+  /* Card Layout for Sections */
+  .about-container, .projects-container, .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2e2f30;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  html {
+    scroll-behavior: smooth;
   }
   
